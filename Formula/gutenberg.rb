@@ -3,6 +3,7 @@ class Gutenberg < Formula
   homepage "https://www.getgutenberg.io/"
   url "https://github.com/Keats/gutenberg/archive/v0.2.1.tar.gz"
   sha256 "407097164b1d6807e7dca94d68fba7538b0a85f8cf08448c4a5ca3357cfd00ca"
+  head "https://github.com/Keats/gutenberg.git"
 
   depends_on "cmake" => :build
   depends_on "rust" => :build
